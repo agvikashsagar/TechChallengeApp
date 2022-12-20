@@ -1,0 +1,3 @@
+FROM docker.io/servian/techchallengeapp:latest
+RUN echo "./TechChallengeApp updatedb; ./TechChallengeApp serve" > run.sh
+ENTRYPOINT [ "/bin/sh", "run.sh"]
