@@ -81,3 +81,24 @@ To apply and destory terraform resources in single command.
 `cd terraform`
 `apply.bat`
 `destroy.bat`
+
+## Screenshots for application
+![app-site](doc/screenshots/ui.jpg)
+#application exposed on port 3000 , context path /
+
+![app-site-added-task](doc/screenshots/add-task.jpg)
+#Added two custom tasks to the application
+
+![app-site-delete-task](doc/screenshots/delete-task.jpg)
+#Delete tasks from postman
+
+![app-site-after-delete-task](doc/screenshots/after-delete.jpg)
+
+
+
+
+
+
+
+
+
