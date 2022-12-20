@@ -7,7 +7,7 @@ resource "aws_db_instance" "rds_instance" {
   engine                      = var.rds_engine
   engine_version              = var.rds_engine_version
   instance_class              = var.rds_instance_type
-  db_name                     = var.rds_database_name
+  db_name                     = "database1"
   username                    = var.rds_username
   password                    = var.rds_password
 
